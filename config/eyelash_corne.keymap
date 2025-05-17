@@ -46,7 +46,7 @@
         #sensor-binding-cells = <2>;
         bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-        tap-ms = <100>;
+        #tap-ms = <100>;
     };
 
     keymap {
