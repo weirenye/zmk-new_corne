@@ -73,7 +73,7 @@
                                         &trans        &trans        &trans                                                                       &trans    &trans    &mkp RCLK
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
         };
 
         raise_layer {
