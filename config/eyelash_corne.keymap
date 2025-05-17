@@ -85,7 +85,8 @@
                          &trans    &trans    &trans                                                                &trans     &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            #sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_3 {
@@ -97,7 +98,8 @@
                                  &trans  &trans           &trans                                                                                &trans    &trans     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            #sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&msc SCRL_DOWN SCRL_UP>;
         };
     };
 };
